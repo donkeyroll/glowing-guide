@@ -2,7 +2,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class FinalNic extends JFrame implements ActionListener {
+public class Minesweeper extends JFrame implements ActionListener {
    
    // variable - they all are global
    int sizeX=10;
@@ -111,7 +111,7 @@ btn[i][j].setMargin(new Insets(0, 0, 0, 0));
 
 
     public static void main( String args[] ) {
-         FinalNic app = new FinalNic();
+         Minesweeper app = new Minesweeper();
 
         app.addWindowListener(
          new WindowAdapter() {
